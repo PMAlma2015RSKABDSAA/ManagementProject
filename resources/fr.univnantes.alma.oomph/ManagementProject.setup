@@ -55,6 +55,10 @@
         url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>     
         <requirement
         name="fr.obeo.releng.targetplatform-feature.feature.group"/>
+        <requirement
+        name="net.sf.eclipsecs.feature.group"/>
+        <repository
+        url="http://download.eclipse.org/releases/mars"/>	
         <repository
         url="http://mbarbero.github.io/fr.obeo.releng.targetplatform/p2/"/> 
         <requirement
@@ -128,6 +132,11 @@
   </setupTask>
   <stream name="master"
       label="Master"/>
+      <!-- target -->
+      <setupTask
+      xsi:type="pde:TargetPlatformTask"
+      id="targetpf"
+      name="mars.target"/> 
   <logicalProjectContainer
       xsi:type="setup:ProjectCatalog"
       href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']"/>
