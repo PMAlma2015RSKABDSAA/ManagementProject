@@ -1,7 +1,7 @@
 
 Apache License, Version 2.0
 
-View Summary of Apache License 2.0 (Apache-2.0) on TLDRLegal » (Disclaimer)
+View Summary of Apache License 2.0 (Apache-2.0) on TLDRLegal Â» (Disclaimer)
 
 Apache License
 Version 2.0, January 2004
