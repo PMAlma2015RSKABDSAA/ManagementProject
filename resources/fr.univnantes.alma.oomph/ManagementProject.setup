@@ -39,12 +39,30 @@
       name="eclipse.target.platform"
       defaultValue="Mars"
       storageURI="scope://Workspace"/>
+      
+      <!-- requirements -->
   <setupTask
       xsi:type="setup.p2:P2Task">
+      
       <requirement
         name="edu.umd.cs.findbugs.plugin.eclipse.feature.group"/>
         <repository
         url="http://findbugs.cs.umd.edu/eclipse"/>
+     <!-- target platform dsl  -->   
+      <requirement
+        name="org.eclipse.xtext.sdk.feature.group"/>
+       <repository
+        url="http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/"/>     
+        <requirement
+        name="fr.obeo.releng.targetplatform-feature.feature.group"/>
+        <repository
+        url="http://mbarbero.github.io/fr.obeo.releng.targetplatform/p2/"/> 
+        <requirement
+        name="net.sf.eclipsecs.feature.group"/>
+        <repository
+        url="http://eclipse-cs.sourceforge.net/update/"/> 
+        
+        
     <description>Install the tools needed in the IDE to work with the source code for ${scope.project.label}</description>
   </setupTask>
   <setupTask
@@ -111,7 +129,7 @@
     </targlet>
   </setupTask>
   <setupTask xsi:type="setup.workingsets:WorkingSetTask">
-  
+  <!-- adding working set  -->
     <workingSet
         name="Resources"
         id="fr.univnantes.alma.oomph.workingset.resources">
