@@ -53,6 +53,13 @@
           xsi:type="predicates:LocationPredicate"
           pattern="resources/*"/>
     </workingSet>
+    <workingSet
+        name="Bundles"
+        id="fr.univnantes.alma.oomph.workingset.bundles">
+      <predicate
+          xsi:type="predicates:LocationPredicate"
+          pattern="bundles/*"/>
+    </workingSet>
     <description>The dynamic working sets for ${scope.project.label}</description>
   </setupTask>
   <setupTask
