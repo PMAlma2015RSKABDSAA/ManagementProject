@@ -4,4 +4,6 @@ Ce projet rentre dans le cadre de l'UE Project Management et a pour objectif de 
 Travis : 
 ![Build Status](https://travis-ci.org/dwyl/learn-travis.svg?branch=master)
 
+![alt tag](https://github.com/PMAlma2015RSKABDSAA/ManagementProject/blob/master/travis.png)
+
 Equipe : THIERRY, ABDERRAHMANE, SAAD
