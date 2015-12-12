@@ -66,27 +66,6 @@
     <description>Install the tools needed in the IDE to work with the source code for ${scope.project.label}</description>
   </setupTask>
   <setupTask
-      xsi:type="git:GitCloneTask"
-      id="git.clone"
-      remoteURI="managementproject/org.eclipse.managementproject">
-    <annotation
-        source="http://www.eclipse.org/oomph/setup/InducedChoices">
-      <detail
-          key="inherit">
-        <value>eclipse.git.remoteURIs</value>
-      </detail>
-      <detail
-          key="label">
-        <value>${scope.project.label} Git repository</value>
-      </detail>
-      <detail
-          key="target">
-        <value>remoteURI</value>
-      </detail>
-    </annotation>
-    <description>${scope.project.label}</description>
-  </setupTask>
-  <setupTask
       xsi:type="setup.targlets:TargletTask">
     <targlet
         name="${scope.project.label}"
