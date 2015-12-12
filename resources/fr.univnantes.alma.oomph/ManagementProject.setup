@@ -86,5 +86,5 @@
   <logicalProjectContainer
       xsi:type="setup:ProjectCatalog"
       href="index:/org.eclipse.setup#//@projectCatalogs[name='org.eclipse']"/>
-  <description>ManagementProject provides cool stuff.</description>
+  <description>ManagementProject.</description>
 </setup:Project>
