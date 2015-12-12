@@ -64,9 +64,7 @@
         <requirement
         name="net.sf.eclipsecs.feature.group"/>
         <repository
-        url="http://eclipse-cs.sourceforge.net/update/"/> 
-        
-        
+        url="http://eclipse-cs.sourceforge.net/update/"/>       
     <description>Install the tools needed in the IDE to work with the source code for ${scope.project.label}</description>
   </setupTask>
   <setupTask
@@ -120,8 +118,19 @@
           xsi:type="predicates:LocationPredicate"
           pattern="resources/*"/>
     </workingSet>
-
+    <!-- here -->
     <description>The dynamic working sets for ${scope.project.label}</description>
+  </setupTask>
+  <setupTask
+      xsi:type="projects:ProjectsImportTask"
+      id="fr.univnantes.project.import">
+    <sourceLocator
+        rootFolder="${git.clone.location}/resources/fr.univnantes.alma.resources"/>
+    <sourceLocator
+        rootFolder="${git.clone.location}/resources/fr.univnantes.alma.oomph"/>
+    <sourceLocator
+        rootFolder="${git.clone.location}/bundles/fr.univnantes.alma.server"/>
+    <description>Import the project</description>
   </setupTask>
     <setupTask
       xsi:type="git:GitCloneTask"
