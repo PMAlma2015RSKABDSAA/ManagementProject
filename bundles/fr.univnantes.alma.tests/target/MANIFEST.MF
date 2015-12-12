@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: fr.univnantes.alma.tests
+Bundle-Name: Tests
+Bundle-Version: 1.0.0.201512121724
+Require-Bundle: org.junit;bundle-version="4.12.0"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+

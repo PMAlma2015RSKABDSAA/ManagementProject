@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='3'>
+  <artifact classifier='binary' id='fr.univnantes.alma.executable.cocoa.macosx.x86_64' version='1.0.0'>
+    <properties size='5'>
+      <property name='maven-groupId' value='fr.univnantes.alma'/>
+      <property name='maven-artifactId' value='fr.univnantes.alma.repository'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='fr.univnantes.alma.executable.cocoa.macosx.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='fr.univnantes.alma.executable.win32.win32.x86_64' version='1.0.0'>
+    <properties size='5'>
+      <property name='maven-groupId' value='fr.univnantes.alma'/>
+      <property name='maven-artifactId' value='fr.univnantes.alma.repository'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='fr.univnantes.alma.executable.win32.win32.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='binary' id='fr.univnantes.alma.executable.gtk.linux.x86_64' version='1.0.0'>
+    <properties size='5'>
+      <property name='maven-groupId' value='fr.univnantes.alma'/>
+      <property name='maven-artifactId' value='fr.univnantes.alma.repository'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='fr.univnantes.alma.executable.gtk.linux.x86_64'/>
+      <property name='maven-extension' value='zip'/>
+    </properties>
+  </artifact>
+</artifacts>
