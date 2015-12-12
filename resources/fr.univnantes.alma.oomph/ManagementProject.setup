@@ -110,17 +110,16 @@
       </repositoryList>
     </targlet>
   </setupTask>
-  <setupTask
-      xsi:type="setup.workingsets:WorkingSetTask">
+  <setupTask xsi:type="setup.workingsets:WorkingSetTask">
+  
     <workingSet
-        name="${scope.project.name}">
+        name="Resources"
+        id="fr.univnantes.alma.oomph.workingset.resources">
       <predicate
-          xsi:type="predicates:AndPredicate">
-        <operand
-            xsi:type="predicates:RepositoryPredicate"
-            project="org.eclipse.managementproject-feature"/>
-      </predicate>
+          xsi:type="predicates:LocationPredicate"
+          pattern="resources/*"/>
     </workingSet>
+
     <description>The dynamic working sets for ${scope.project.label}</description>
   </setupTask>
     <setupTask
